@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/athena"
+    android:padding ="16dp"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textViewmodule"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:text="@string/module_select"
+        android:textColor="#DD1E1E"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/textViewC346"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="4"
+        android:text="@string/c346"
+        android:textColor="#DD1E1E"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textViewC206"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="4"
+        android:text="@string/c206"
+        android:textColor="#DD1E1E"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textViewC203"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="4"
+        android:text="@string/c203"
+        android:textColor="#DD1E1E"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textViewC218"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="4"
+        android:text="@string/c218"
+        android:textColor="#DD1E1E"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textViewC235"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="4"
+        android:text="@string/c235"
+        android:textColor="#DD1E1E"
+        android:textSize="20sp" />
+</LinearLayout>
